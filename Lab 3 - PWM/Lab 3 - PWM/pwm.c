@@ -46,7 +46,6 @@ void stop_pwm(void) {
 // Config P2.4 to output TA0.1 waveform
 void config_pwm_gpio(void) {
     P2 -> DIR |= BIT4;
-
     P2 -> SEL0 |= BIT4;
     P2 -> SEL1 &= ~BIT4;
 }
