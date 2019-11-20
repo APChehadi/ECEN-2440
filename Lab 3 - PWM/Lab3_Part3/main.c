@@ -15,7 +15,7 @@ void main(void)
 	config_drv2605L();
 
 	config_pwm_timer();
-    start_pwm(90);
+    start_pwm(50);
 
     while(1) {
         // blah
